@@ -1,0 +1,21 @@
+{
+    "News":
+    [
+        {
+            "ID":"1",
+            "Datum":"10.06.2014",
+            "Meldung":"Bauernhof Krause baut nun auch Tomaten an."
+        },
+        {
+            "ID":"2",
+            "Datum":"13.06.2014",
+            "Meldung":"Erdbeeren sind dieses Jahr besonders saftig."
+        },
+        {
+            "ID":"3",
+            "Datum":"16.06.2014",
+            "Meldung":"Erstbesteller erhalten eine Gurke gratis!"
+        }
+    ]
+}
+
