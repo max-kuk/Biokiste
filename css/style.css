@@ -1,0 +1,236 @@
+body {
+  font-family:'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: black;
+    background: url('../img/bg.jpg') fixed no-repeat;
+    background-size: cover;
+    line-height: 1.429;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#nav {
+    background-color: black;
+    width: 100%;
+    color:white;
+    height:60px;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    box-shadow: 0 0 25px 1px black;
+    overflow: hidden;
+    position: fixed;
+}
+#nav p {
+    font-family: cursive;
+margin-bottom: 20px;
+
+    color: #a5da49;
+    font-style: italic;
+}
+#nav img {
+    max-height: 45px;
+    padding-right: 10px;
+    padding-top: 10px;
+    float: right;
+}
+#nav ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+     -webkit-flex-wrap:wrap;
+     -ms-flex-wrap:wrap;
+     flex-wrap:wrap;
+    list-style-type: none;
+    padding-left: 15px;
+    padding-top: 12px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#nav ul li {
+    font-size: large;
+    margin: 5px 1.5em 5px 1.5em;
+    display: inline;
+    -webkit-transition:all linear 0.01s;
+    transition:all linear 0.01s; 
+
+}
+#nav a {
+    color: wheat;
+}
+#nav a:hover {
+    color: #0e0e0e;
+    cursor: default;
+    font-style: normal;
+
+    text-decoration: none;
+}
+#nav a:active {
+    color: #0e0e0e;
+    cursor: default;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#nav ul li:hover {
+    color: #a5da49;
+    cursor: default;
+}
+#nav ul li:active {
+    color: #a5da49;
+    cursor: default;
+}
+
+nav li:hover {
+    background-color: #a5da49;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    cursor: pointer;
+}
+#products, #news, #links,#feedback ,#contentinfo, #footer{
+    background-color: white;
+    margin-bottom: 1.5em;
+    opacity: 0.95;
+    box-shadow: 0 0 25px 1px black;
+    padding: 10px 30px 30px 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    max-width: 100%;
+    font-size: medium;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+#featured{
+     background-color: white;
+     margin-bottom: 1.5em;
+     opacity: 0.95;
+     box-shadow: 0 0 25px 1px black;
+     padding: 50px 30px 30px 30px;
+     overflow: hidden;
+     border-radius: 10px;
+     max-width: 100%;
+     font-size: medium;
+     -webkit-align-content: center;
+     -ms-flex-line-pack: center;
+     align-content: center;
+     -moz-border-radius:10px;
+     -webkit-border-radius:10px;
+ }
+
+
+
+
+
+#featured figure {
+    float: right;
+    margin-left: 70px;
+    padding-top: 15px;
+}
+#featured figcaption {
+    font-size: small;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    font-style: italic;
+}
+#featured figcaption img {
+    float: right;
+}
+#featured p{
+    font-size: medium;
+}
+#featured h2{
+    color:#A5Daa9;
+    font-size: x-large;
+}
+#featured h3 {
+   font-size:large;
+}
+
+#news h2 {
+    font-size: larger;
+}
+#news_list {
+    list-style-type: none;
+}
+#news_list article {
+    border:1px dashed #EEE;
+
+}
+#news-list time {
+    font-size: medium;
+    font-style: italic;
+}
+#news-list header {
+    padding-bottom: 1.143em;
+}
+#news-list footer {
+    font-size: small;
+    margin-bottom: 2em;
+}
+#news li:first-child h2 {
+    color:#e6b886;
+}
+#links h2 {
+    color: #a5da49;
+    font-size: x-large;
+    margin-bottom: 20px;
+    padding-top: 0%;
+
+}
+#links ul {
+
+    list-style-type: none;
+}
+
+#links li {
+    display: block;
+}
+#links a {
+    margin-top: 1.0em;
+    font-size: large;
+}
+article h2 {
+    color: #a5da49;
+}
+
+#address {
+    align-content: right;
+    margin-left:30px;
+    font-size: medium;
+}
+#feedback h2 {
+    color:#4b88b6;
+
+    font-size:x-large;
+}
+.thumbnail h4{
+    float:right;
+    display: inline-block;
+}
+#contentinfo {
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+#contentinfo img{
+    float: right;
+    display: inline-block;
+}
+
+.arrow{
+    overflow: hidden;
+    position: fixed;
+    width: 128px;
+    length:128px;
+}
+
+
+
