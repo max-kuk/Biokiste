@@ -1,0 +1,105 @@
+label
+ {
+    display:block;
+    position: absolute;
+    right: 1rem;
+    top:1rem;
+    z-index:10;
+    background: #08c;
+    padding:0.5rem;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+
+    }
+label a{
+    display: block;
+}
+label a:after {
+    content: "\25bc";
+    font-size: 0.7rem;
+}
+#menu{
+    max-width: 649px;
+    background-color: black;
+height: 50px;
+    text-align: center;
+}
+#nav-toggle {
+    display: none; /* hide the checkbox */
+    font-size: larger;
+}
+#nav {
+    display: none;
+    background-color:black;
+
+}
+#nav-toggle:checked + #nav {
+    margin-top: 12px;
+    display: block;
+    font-family: cursive;
+    background-color: black;
+    font-size: large;
+    list-style-type: none;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    color:black ;
+    padding-right: 0;
+}
+#menu ul {
+    padding-left: 0px;
+    color:white;
+
+}
+#nav img{
+    display:none;
+}
+
+#menu a:hover {
+    color: #0e0e0e;
+    cursor: default;
+    font-style: normal;
+
+    text-decoration: none;
+}
+#menu a:active {
+    color: #0e0e0e;
+    cursor: default;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#menu ul li:hover {
+    background-color: #a5da49;
+    cursor: default;
+    max-width: 649px;
+}
+#menu ul li:active {
+    background-color: #a5da49;
+    cursor: default;
+    max-width: 649px;
+}
+
+#menu li:hover {
+    background-color: #a5da49;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    cursor: pointer;
+    max-width: 649px;
+
+}
+
+ #menu img{
+    max-height: 30px;
+     weight: auto;
+     margin-right: auto;
+
+ }
+
+
+
+
