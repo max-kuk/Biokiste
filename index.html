@@ -6,11 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="css/after.css">
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
     <script language="javascript" type="text/javascript" src="js/jquery-2.1.4.js"></script>
     <script language="JavaScript" type="text/javascript" src="js/script.js"></script>
     <script language="JavaScript" type="text/javascript" src="js/jquery.malihu.PageScroll2id.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
 </head>
 <body>
             <nav  class="navbar navbar-default navbar-fixed-top">
@@ -55,7 +57,7 @@
         				        <h2>Wir stellen ein!</h2>
         		                <time datetime="2016-05-08">8. Mai 2016</time>
             		        </header>
-            		        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+            		        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <a href=""> Weiterlesen... </a> </p>
             		        <footer>
         		    	    <p>Verfasst von DEIN NAME</p>
         		    `        </footer>
@@ -67,7 +69,7 @@
 						        <h2>Neues Liefergebiet</h2>
 					            <time datetime="2016-05-07">7. Mai 2016</time>
 					        </header>
-					       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+					       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<a href=""> Weiterlesen... </a> </p>
 					        <footer>
 						        <p>Verfasst von DEIN NAME</p>
 					        </footer>
@@ -80,7 +82,7 @@
 					            <time datetime="2016-05-06">6. Mai 2016</time>
 					        </header>
 					
-					       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+					       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<a href=""> Weiterlesen... </a> </p>
 					        <footer>
 						        <p>Verfasst von DEIN NAME</p>
 					        </footer>
@@ -164,8 +166,8 @@
 				<h2>Kontakte & Adresse</h2>
 				<div class="col-xs-6">
 					<div class="embed-responsive embed-responsive-4by3">
-					<iframe  class=embed-responsive-item src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4985.410578075829!2d12.367964745207004!3d51.33494028777043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1462882512412"
-						width="350" height="350" frameborder="0" style="border:0">
+					<iframe  class=embed-responsive-item id=map src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4985.410578075829!2d12.367964745207004!3d51.33494028777043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1462882512412"
+                             width="350" height="350" frameborder="0" style="border:0">
 					</iframe>
 						</div>
 				</div>
@@ -178,12 +180,12 @@
                         Manetstr. 15<br>
 					04109 Leipzig<br>
 					Deutschland</p>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                        <abbr title="Phone">P:</abbr> +49 (176) 456-7890
 
                         </address>
                     <address>
                         <strong>Wolfgang Goethe</strong><br>
-                        <a href="mailto:#">w.goethe@example.com</a>
+                        <a href="mailto:#">w.goethe@biokiste.com</a>
                     </address>
                 </div>
 						<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
@@ -201,17 +203,26 @@
 	<div class="row">
 	    <div class="col-md-6 col-md-offset-3">
 	        <footer id="contentinfo">
-
-                    <img src="img/logo_icon.png" alt="Logo Leipziger Biokiste">
+                <div class="col-md-4"><h2>Leipziger Biokiste</h2></div>
                 <div class="row">
-			     <div class="col-md-4"><h2>Leipziger Biokiste</h2></div>
-                <div class="col-md-4 col-md-offset-4"><h5>Frische auf Bestellung!</h5></div>
-</div>
+                <figure>
+                    <img src="img/logo_icon.png" alt="Logo Leipziger Biokiste">
+                    <figcaption>Frische auf Bestellung!</figcaption>
+                </figure>
+        </div>
+
+
 
 		      <div class="row">
 
 			     <p>Die Leipziger Biokiste beliefert seit 2009 Kunden aus Leipzig und Umgebung mit frischem Gemüse. Dabei kommen ausschließlich reine Bioprodukte in die Kiste.</p>
 		     </div>
+                <div class="row">
+                    <h5>
+                    © Max Kukuskin  | Impressum
+                    <p>Wolfgang Goethe |  Manetstr. 15 | 04109 | Deutschland </p>
+                    </h5>
+                </div>
 
 	        </footer>
                 </div>

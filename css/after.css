@@ -1,0 +1,20 @@
+.thumbnail{
+ border-radius: 2px;
+}
+.btn-primary {
+    background-color: #ada;
+    border-color: #3c763d;
+}
+.btn{
+    border: 0 transparent;
+    border-radius: 2px;
+
+}
+.modal-content {
+    border-radius: 2px;
+    box-shadow: none;
+    border: none;
+}
+div div div#feedback form.form div.form-group div.col-xs-4 label {
+    display: none;
+}
